@@ -25,4 +25,5 @@ JWT_EXPIRATION_DELTA = datetime.timedelta(3200) # Set the token validity
 # ----------------------------------------------------------------
 # See https://flask-pymongo.readthedocs.io/en/latest/ for more
 # MongoDB configuration parameters
-MONGO_DBNAME = 'garnet_api'
+# http://docs.mongoengine.org/projects/flask-mongoengine/en/latest/
+MONGODB_SETTINGS = {'db': 'usurur'}
